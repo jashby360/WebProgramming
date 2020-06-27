@@ -1,0 +1,28 @@
+//For some reason the css only displays properly on Internet Explorer browser.
+ So in order for you to load/see everything properly, according to the professor, you have to load the links on the IE Browser.
+
+//The final link displays 
+Activity 1
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/tab_ex1.html
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/tab_ex2.html
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/tab_ex3.html
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/tab_ex4.html
+
+Activity 2
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/activity2.html
+
+Activity 3
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/adv_tab1.html
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/adv_tab2.html
+
+Activity 4
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/adv_tab3.html
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/adv_tab4.html
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/adv_tab5.html
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/adv_tab6.html
+
+Activity 5
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/adv_tab7.html
+
+Activity 6 
+http://codd.cs.gsu.edu/~jashby3/WP/CW/3/activity6.html
