@@ -1,0 +1,4 @@
+//This contains the codd link for assignment 1, Everything passes css and html validation. This is a rough 
+but my best at a professional looking website for a beginner from me. Please be considerate.
+
+Assignment 1:codd.cs.gsu.edu/~jashby3/Assignments/1/index.html or codd.cs.gsu.edu/~jashby3/Assignments/1/

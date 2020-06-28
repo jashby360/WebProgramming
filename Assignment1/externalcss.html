@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>External CSS</title>
+	<link rel ="stylesheet" type="text/css" href="externalcss.css">
+</head>
+<body>
+<nav>
+	<a href ="index.html">Home</a>
+	<a href = "resume.html">Resume</a>
+	<a href = "externalcss.html">External CSS</a>
+</nav>
+<h1>External CSS</h1>
+<br>
+<h2>This is a page to display the CSS that went into this website.</h2>
+<pre>
+	#persDescrip{
+	list-style:none;
+	}
+
+	/*Changes color of the background to beige*/
+	body {
+		background-color:beige;
+	}
+
+	nav{
+		float:right;
+		font-weight:bold;
+	}
+
+	h2{
+		text-align:center;
+		text-decoration:underline;
+	}
+
+	/*Deals with the table with all personal information*/
+	#div2 table, th, td{
+		border: 1px solid black;
+		width:30%;
+		text-align:center;
+	}
+
+	/*Deals with the table with assignment, projects, etc.*/
+	#div4 table{
+		border: 1px solid black;
+		width:75%;
+		table-layout: fixed;
+		text-align:center;
+	}
+
+	/*Deals with the image on the website.*/
+	#div1 img{
+		float:right;
+		width:325px;
+		height:450px;
+		background-color:black;
+		padding:4px;
+	}
+
+	tr:nth-child(even){
+		background-color:lightblue;
+	}
+
+	/*Deals with links when hovering, clicked, and visited*/
+	a:link{
+		color:blue;
+	}
+	a:visited{
+		color:black;
+	}
+	a:hover{
+		color:red;
+	}
+
+	/*Bolds specified words*/
+	#gsu{
+		color:red;
+		font-weight:bold;
+	}
+	#cs{
+		color:red;
+		font-weight:bold;
+	}
+	#front{
+		color:red;
+		font-weight:bold;
+	}
+	#back{
+		color:red;
+		font-weight:bold;
+	}
+</pre>
+</body>
+</html>
