@@ -1,0 +1,22 @@
+h1{
+	text-align:center;
+}
+
+body{
+	background-color:#d5f4e6;
+	font-family:courier new;
+}
+
+img{
+	float:right;
+	border-style:solid;
+	border-radius:5px;
+}
+
+table, th, td {
+	border:1px solid black;
+}
+
+table {
+	border-collapse:collapse;
+}

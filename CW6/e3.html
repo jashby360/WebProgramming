@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>JavaScript, Example 3</title>
+	<script src="cw6.js" type="text/javascript">
+</script>
+</head>
+<body>
+<p>JavaScript program to multiply 2 square matrices(3,3)</p>
+<script>
+	function matrixDot (A, B) {
+    var result = new Array(A.length).fill(0).map(row => new Array(B[0].length).fill(0));
+
+    return result.map((row, i) => {
+        return row.map((val, j) => {
+            return A[i].reduce((sum, elm, k) => sum + (elm*B[k][j]) ,0)
+        })
+    })
+	}
+
+	var print = m => m.forEach(r => document.write(`&nbsp;&nbsp;${r.join(' ')}<br/>`)) 
+
+	var a = [[8, 3,5], [2, 4,6], [3, 6,7]]
+	var b = [[1, 2, 3], [4, 6, 8],[5,3,6]]
+
+	document.write('matrix a:<br />');
+	print(a);
+	document.write('matrix b:<br />');
+	print(b);
+	document.write('a * b =<br />');
+	print(matrixDot(a,b));
+</script>
+</body>
+</html>

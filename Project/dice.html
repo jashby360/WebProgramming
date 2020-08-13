@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Simple Dice Games</title>
+	<link rel ="stylesheet" type="text/css" href="style.css">
+	<script src="script.js" type ="text/javascript"></script>
+</head>
+<body>
+	<h1>Dice Games</h1>
+	<img src="dice.jpg" style="width:350px;height:200px">
+	<!--Enter name and save to database-->
+	<h3>Please enter your name! It will be recorded as the visitors of this site!</h3>
+	<form action="db.php" method="post">
+		<label for = "fname">First Name:</label>
+		<input type="text" name = "fname">
+		<label for = "lname">Last Name:</label>
+		<input type="text" name = "lname">
+		<input type="submit" value ="Submit">
+	</form>
+	<h3>Number Guessing Instructions:</h3>
+	<ol>
+		<li>Guess the number that appears on the dice after a roll.</li>
+		<li>Enter your guessed value into the box and click "Roll".</li>
+		<li>If guessed correctly then 1 point is added to your score.</li>
+		<li>Press the end button to end the game and show your total score.</li>
+	</ol>
+	
+	<h3>Even/Odd Guessing Instructions:</h3>
+	<ol>
+		<li>Guess whether the number that appears on the dice is even or odd after a roll.</li>
+		<li>Enter either 1(Odd) or 0(Even) and click "Odd/Even".</li>
+		<li>If guessed correctly the 1 point is added to your score.</li>
+		<li>Press the end button to end the game and show your total score.</li>
+	</ol>
+
+	<h3>Guess:</h3>
+	<!--When roll is pressed compare answer submitted/inputed by user to a random dice roll, if equal then add point to user-->
+	<form>
+		<label for="userInput">Number Guessing: </label>
+		<input type = "text" id = "userInput"></input>
+		<input type = "button" onclick = "roll()" value="Roll">
+		<label for="evenOddInput">Even/Odd: </label>
+		<input type = "text" id = "evenOddInput"></input>
+		<input type = "button" onclick = "evenOdd()" value="Odd/Even">
+	</form>
+	<br>
+	<!--Test rng creation by displaying a random integer between 1 through 6-->
+	<button onClick = "testRnd()">Test Random</button>
+	<!--Displays the currentScore on click-->
+	<button onClick = "currentScore()">Current Score</button>
+	<!--When the end button is pressed, the players name and score is displayed on the screen-->
+	<button onClick = "end()">End</button>
+	<p id = "demo"></p>
+	<p id = "final"></p>
+	<br>
+	<hr>
+	<p>Have a comment or complaint to make about the dice games? Get into contact with the developer below.</p>
+	<!--Take user's information and send it to the developer for review-->
+	<form action="dice.php" method="post">
+		<label for = "name">Name:</label><br>
+		<input type="text" id ="name" name = "name"><br>
+		<label for = "email">Email:</label><br>
+		<input type="text" id ="email" name = "email"><br>
+		<label for="comment">Comment/Complaint:</label><br><textarea rows ="8" cols="40" name="comment"></textarea><br>
+		<input type="submit" value ="Submit">
+	</form>
+</body>
+</html>
